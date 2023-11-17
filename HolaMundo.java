@@ -2,10 +2,10 @@
  * Muestra por pantalla la frase "Hola Mundo"
  */
 public class HolaMundo {
-    public static void main (Strinf[] args) {
+    public static void main (String[] args) {
         String rojo = "\033[32m";
         String azul = "\033[34m";
-        System.out.println("¡Hola Mundo!");
-        System.out.println("¡Aquí estamos haciendo pruebas en Gitg");
+        System.out.println(rojo +"¡Hola Mundo!");
+        System.out.println(azul +"¡Aquí estamos haciendo pruebas en Git");
     }
 }
